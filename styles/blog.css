@@ -74,7 +74,7 @@ body {
 
 .banner-text {
     width: 40%;
-    background-image: url("/images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-image: url("/images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03), rgba(241, 68, 174, 0.03));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +107,9 @@ body {
 .banner-goat {
     font-size: 65px;
     font-weight: 800;
+}
+
+.banner-goat-effect {
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     -webkit-background-clip: text;
@@ -135,4 +138,88 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-left: 10px;
+}
+
+.online-games-container,
+.play-games-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.online-games-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.online-games-header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-desc {
+    text-align: center;
+    padding: 24px 0px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.online-games-images {
+    display: flex;
+    gap: 16px;
+    height: 300px;
+    justify-content: center;
+}
+
+.online-games-image-1,
+.img-text {
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 500;
+    width: 220px;
+    height: 280px;
+}
+
+.play-games-container {
+    display: flex;
+    align-items: center;
+}
+
+.play-games-img {
+    width: 50%;
+    position: relative;
+}
+
+.play-games-img img {
+    width: 82%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.play-games-desc {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.play-games-desc h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.play-games-desc p {
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px;
+    width: 400px;
+}
+.play-games-img-2{
+    width: 46%;
+    height: 50%;
+    position: absolute;
+    left: 70%;
+    top: 60%;
 }
