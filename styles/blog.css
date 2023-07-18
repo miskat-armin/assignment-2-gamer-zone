@@ -49,6 +49,9 @@ body {
 }
 
 .nav-menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #3C354F;
     font-size: 15px;
     font-weight: 600;
