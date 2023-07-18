@@ -1,6 +1,15 @@
 /* for tablet view */
-@media screen and (min-width:577px) and (max-width:972px){
-    
+@media screen and (min-width:577px) and (max-width:972px) {
+    .nav-logo-title{
+        margin-left: 20px;
+    }
+    .banner-text {
+        width: 40%;
+        padding-left: 50px;
+    }
+    .banner-img img {
+        width: 380px;
+    }
 }
 
 /* for mobile devices */
@@ -10,13 +19,49 @@
         box-shadow: none;
         margin-top: 30px;
     }
-    .nav-logo-title{
+
+    .nav-logo-title {
         margin-top: 20px;
+        margin-left: 20px;
     }
+
     .nav-menus {
         flex-direction: column;
         margin-top: 20px;
         gap: 20px;
     }
-    
+
+    .banner-container {
+        flex-direction: column-reverse;
+        margin-top: 280px;
+        margin-left: 70px;
+    }
+
+    .banner-container img {
+        width: 350px;
+        height: 320px;
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .banner-text {
+        width: 80%;
+        padding-left: 50px;
+    }
+
+    .banner-title {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .banner-goat {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .sign-in,
+    .go-rouge {
+        padding: 10px;
+    }
+
 }
