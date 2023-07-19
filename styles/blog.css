@@ -75,11 +75,14 @@ body {
 
 .banner-text {
     width: 40%;
-    background-image: url("/images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-image: url("/images/Group\ 14.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .banner-ul {
@@ -183,6 +186,42 @@ body {
     height: 280px;
 }
 
+.img-hover-div {
+    position: relative;
+}
+
+.img-hover-div:hover .play {
+    display: block;
+    cursor: pointer;
+}
+
+.play {
+    position: absolute;
+    display: none;
+    top: 0%;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    opacity: 0.6;
+}
+.play button{
+    border: 2px solid #e04fa6;
+    border-radius: 8px;
+    width: 220px;
+    height: 280px;
+    cursor: pointer;
+    filter: brightness(40%);
+}
+.watch-now{
+    font-size: 20px;
+    color: #F948B2;
+    font-weight: 700;
+    opacity: 1;
+    margin-top: 170px;
+    margin-left: 54px;
+}
+
 .play-games-container {
     display: flex;
     align-items: center;
@@ -269,24 +308,27 @@ body {
 
 .footer-container {
     background-color: #0B0223;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-.footer-logo-title{
+
+.footer-logo-title {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 10px;
 }
-.footer-logo-title img{
+
+.footer-logo-title img {
     width: 60px;
     height: 30px;
 }
-.footer-G{
+
+.footer-G {
     font-size: 40px;
     font-weight: 800;
 }

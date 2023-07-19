@@ -1,5 +1,5 @@
 /* for tablet view */
-@media screen and (min-width:577px) and (max-width:992px) {
+@media screen and  (min-width:577px) and (max-width:992px) {
     .nav-logo-title{
         margin-left: 20px;
     }
@@ -119,6 +119,21 @@
         margin: 0px;
         flex-direction: row;
         padding-top: 10px;
+    }
+    .footer-container{
+        gap: 20px;
+        height: ;
+    }
+    .footer-sections a {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+    .footer-policies a{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5px;
     }
 
 }
