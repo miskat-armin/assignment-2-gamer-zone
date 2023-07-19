@@ -75,7 +75,7 @@ body {
 
 .banner-text {
     width: 40%;
-    background-image: url('/images/Group\ 14.png');
+    background-image: url('../images/Group\ 14.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
