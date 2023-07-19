@@ -8,7 +8,8 @@ body {
 }
 
 /* shared text color */
-.shared-text-color {
+.shared-text-color,
+.games-btn {
     color: #0B0223;
 }
 
@@ -74,7 +75,7 @@ body {
 
 .banner-text {
     width: 40%;
-    background-image: url("/images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03), rgba(241, 68, 174, 0.03));
+    background-image: url("/images/Group\ 14.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -185,6 +186,7 @@ body {
 .play-games-container {
     display: flex;
     align-items: center;
+    margin-top: 150px;
 }
 
 .play-games-img {
@@ -216,10 +218,110 @@ body {
     margin: 5px;
     width: 400px;
 }
-.play-games-img-2{
+
+.play-games-img-2 {
     width: 46%;
     height: 50%;
     position: absolute;
     left: 70%;
     top: 60%;
+}
+
+.games-section {
+    height: 300px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.games-container {
+    margin: 100px 160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.games-btn {
+    cursor: pointer;
+    width: 150px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.games-btn img {
+    width: 30px;
+}
+
+.games-btn:hover {
+    border: 1px solid #FF42A5;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-container {
+    background-color: #0B0223;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.footer-logo-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo-title img{
+    width: 60px;
+    height: 30px;
+}
+.footer-G{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer-title-color {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-sections a {
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+.footer-icons a img {
+    width: 30px;
+    padding-right: 30px;
+}
+
+.footer-policies a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 500;
 }
